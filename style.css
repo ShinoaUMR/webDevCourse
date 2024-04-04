@@ -2,12 +2,16 @@
 	Property: value;
 }*/
 
+*{
+	text-align: right;
+}
+
 body {
 	background-image: url(backgroundimg.jpg);
 	background-size: cover;
 }
 
-h2 {
+h2 + p {
 	color: #FFA38C;
 	text-align: center;
 	border: 5px solid rgba(167,212,235, 0.5);
@@ -15,10 +19,32 @@ h2 {
 }
 
 p{
-	color: pink;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Poiret One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 li {
 	list-style: none;
 	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
 }
